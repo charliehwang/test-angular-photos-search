@@ -24,12 +24,13 @@ import { UnsplashSearchResult } from '../unsplash-search/unsplash-search-result'
   template: `
     <input
       type="text"
-      class="form-control"
+      class="search-input"
       placeholder="Search"
       [value]="searchValue"
       autofocus
     />
   `,
+  styleUrls: ['./search-box.component.sass'],
 })
 export class SearchBoxComponent implements OnInit {
   @Output() loading: EventEmitter<boolean> = new EventEmitter<boolean>();

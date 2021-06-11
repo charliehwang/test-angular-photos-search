@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { UnsplashSearchResult } from './unsplash-search-result';
 
-export const API_KEY = 'yswiOHQPSc7kE2GHJB1IXDG0mwzNJ3xdT4SJH_Min3M';
+export const API_KEY = 'aKEDiuJDFiBS7Exc-o17jdq0yKALWKsMaav_4JXk_jo';
 export const API_URL = 'https://api.unsplash.com/search/photos/';
 
 /**
